@@ -1,0 +1,380 @@
+[
+  {
+    "numeroCompra": 1,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 331.88,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "1",
+        "titulo": "Fjallraven - Mochila Foldsack No. 1, para 15 portátiles",
+        "precio": "109.95",
+        "precioST": "219.90"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "111.98"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 2,
+    "cantidadTotalProductos": 3,
+    "precioTotal": 85.02,
+    "productosComprados": [
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "11.19"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 3,
+    "cantidadTotalProductos": 2,
+    "precioTotal": 73.83,
+    "productosComprados": [
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 4,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 341.98,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "12",
+        "titulo": "La unidad para juegos WD de 4 TB funciona con el disco duro externo portátil Playstation 4",
+        "precio": "114",
+        "precioST": "228.00"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "15",
+        "titulo": "BIYLACLESEN Chaqueta de snowboard 3 en 1 para mujer Abrigos de invierno",
+        "precio": "56.99",
+        "precioST": "113.98"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 5,
+    "cantidadTotalProductos": 2,
+    "precioTotal": 170.99,
+    "productosComprados": [
+      {
+        "cantidad": 1,
+        "codigo": "12",
+        "titulo": "La unidad para juegos WD de 4 TB funciona con el disco duro externo portátil Playstation 4",
+        "precio": "114",
+        "precioST": "114"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "15",
+        "titulo": "BIYLACLESEN Chaqueta de snowboard 3 en 1 para mujer Abrigos de invierno",
+        "precio": "56.99",
+        "precioST": "56.99"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 6,
+    "cantidadTotalProductos": 6,
+    "precioTotal": 273.66,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "35.68"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": "9.99",
+        "precioST": "19.98"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "10",
+        "titulo": "SanDisk SSD PLUS 1TB SSD interno - SATA III 6 Gb/s",
+        "precio": "109",
+        "precioST": "218.00"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 7,
+    "cantidadTotalProductos": 3,
+    "precioTotal": 136.83,
+    "productosComprados": [
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": "9.99",
+        "precioST": "9.99"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "10",
+        "titulo": "SanDisk SSD PLUS 1TB SSD interno - SATA III 6 Gb/s",
+        "precio": "109",
+        "precioST": "109"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 8,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 436,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "10",
+        "titulo": "SanDisk SSD PLUS 1TB SSD interno - SATA III 6 Gb/s",
+        "precio": "109",
+        "precioST": "218.00"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "11",
+        "titulo": "Silicon Power 256GB SSD 3D NAND A55 SLC Caché Rendimiento Aumentar SATA III 2.5",
+        "precio": "109",
+        "precioST": "218.00"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 9,
+    "cantidadTotalProductos": 2,
+    "precioTotal": 177.99,
+    "productosComprados": [
+      {
+        "cantidad": 1,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": "9.99",
+        "precioST": "9.99"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "6",
+        "titulo": "Micropavé pequeño de oro macizo",
+        "precio": "168",
+        "precioST": "168"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 10,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 253.68,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "35.68"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "11",
+        "titulo": "Silicon Power 256GB SSD 3D NAND A55 SLC Caché Rendimiento Aumentar SATA III 2.5",
+        "precio": "109",
+        "precioST": "218.00"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 11,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 134.36,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "111.98"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "22.38"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 12,
+    "cantidadTotalProductos": 6,
+    "precioTotal": 377.96,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "6",
+        "titulo": "Micropavé pequeño de oro macizo",
+        "precio": "168",
+        "precioST": "336.00"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": "9.99",
+        "precioST": "19.98"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "8",
+        "titulo": "Búho perforado de acero inoxidable chapado en oro rosa doble",
+        "precio": "10.99",
+        "precioST": "21.98"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 13,
+    "cantidadTotalProductos": 5,
+    "precioTotal": 39.75,
+    "productosComprados": [
+      {
+        "cantidad": 5,
+        "codigo": "19",
+        "titulo": "Opna Humedad de manga corta para mujer",
+        "precio": "7.95",
+        "precioST": "39.75"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 14,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 147.66,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "35.68"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "111.98"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 15,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 143.96,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "15.99",
+        "precioST": "31.98"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "111.98"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 16,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 156.58,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "22.3",
+        "precioST": "44.60"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "111.98"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 17,
+    "cantidadTotalProductos": 2,
+    "precioTotal": 17.8,
+    "productosComprados": [
+      {
+        "cantidad": 1,
+        "codigo": "18",
+        "titulo": "MBJ Camiseta de manga corta con cuello barco en V para mujer",
+        "precio": "9.85",
+        "precioST": "9.85"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "19",
+        "titulo": "Opna Humedad de manga corta para mujer",
+        "precio": "7.95",
+        "precioST": "7.95"
+      }
+    ]
+  }
+]

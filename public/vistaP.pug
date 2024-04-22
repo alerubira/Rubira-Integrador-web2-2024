@@ -1,0 +1,78 @@
+doctype html
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="shortcut icon", href="./icono.png", type="image/x-icon")
+    link(rel="stylesheet", href="./estilo.css")
+    title Trabajo Integrador
+  body 
+       
+    script.
+     let carrito=[];
+      function agregarAlCarrito(divCarta) {
+          let productoCarrito={};
+          let numeroCodigo = parseInt(divCarta.querySelector('.codigo').innerText);
+          productoCarrito.codigo=numeroCodigo;
+          if(carrito.some(function(producto) {
+             return producto.codigo === productoCarrito.codigo}) ){
+              alert("El producto ya se encuentara en el carrito.En la pagina carrito podra seleccionar la cantidad");
+
+             }else{
+              productoCarrito.titulo =divCarta.querySelector('.titulo').innerText 
+              let numeroPrecio=divCarta.querySelector('.precioFinal').innerText
+              numeroPrecio = parseFloat(numeroPrecio);
+              productoCarrito.precioFinal=numeroPrecio;
+              productoCarrito.cantidad=1;
+              productoCarrito.precioSubtotal=numeroPrecio;
+              carrito.push(productoCarrito);
+              }
+            }
+    script.
+         function irAlCarrito(carrito) {
+              if (carrito.length !== 0) { 
+                  localStorage.setItem('carrito', JSON.stringify(carrito));
+                 
+                 window.location.href = '/carrito'; 
+                 carrito=[];
+                   } else {
+                          alert('Su carrito está vacío, no se puede procesar su compra');
+                         }
+            }
+      
+    #divPrincipal
+      #divCabecera
+        h1 Bienvenido a mi tienda Online
+        p Aquí encontrarás los mejores productos y ofertas
+        button(type="button", onclick="irAlCarrito(carrito)") Acceder al carritio
+       
+      #divProductos
+        each producto in productos
+          .divCarta
+            h6 CODIGO 
+            h5(class='codigo')= producto.id
+            h6 TITULO
+            h5(class='titulo')=producto.titulo  
+            h6=`CATEGORIA :  ${producto.categoria}`  
+            h6=`PRECIO DE LISTA : : ${producto.precio}` 
+            if producto.descuento !==0
+               h6=`Descuento del : ${producto.descuento} porciento`
+               h6=`El dinero descontado es : ${producto.dineroDescontado}`
+               h6 EL PRECIO FINAL ES 
+                h5(class='precioFinal')=producto.precioFinal
+            else 
+               h6=`Esate producto no tiene descuento`
+               h6=`No se descontara ningun dinero`
+               h6 EL PRECIO FINAL ES 
+                h5(class='precioFinal')=producto.precioFinal
+            .divFoto
+                 img(src=producto.imagen, class="fotoProducto")
+             
+                 if producto.descuento !==0
+                    img(src='./oferta.png', class='superpuesta')
+            button(type="button", onclick="agregarAlCarrito(this.parentNode)") Agregar al carrito
+            h6=`${producto.descripcion.slice(0,29)}`  
+            h6.hidden-description=`${producto.descripcion.slice(29)}`
+      .divInferior
+         h1 Gracias por elegirnos 
+         p Estaremos siempre a su dispocicion
