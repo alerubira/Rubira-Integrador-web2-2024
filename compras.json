@@ -432,5 +432,124 @@
         "precioST": "31.98"
       }
     ]
+  },
+  {
+    "numeroCompra": 20,
+    "cantidadTotalProductos": 14,
+    "precioTotal": 870.46,
+    "productosComprados": [
+      {
+        "cantidad": 3,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "53.52"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "111.98"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": "9.99",
+        "precioST": "19.98"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "6",
+        "titulo": "Micropavé pequeño de oro macizo",
+        "precio": "168",
+        "precioST": "336.00"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "8",
+        "titulo": "Búho perforado de acero inoxidable chapado en oro rosa doble",
+        "precio": "10.99",
+        "precioST": "21.98"
+      },
+      {
+        "cantidad": 3,
+        "codigo": "11",
+        "titulo": "Silicon Power 256GB SSD 3D NAND A55 SLC Caché Rendimiento Aumentar SATA III 2.5",
+        "precio": "109",
+        "precioST": "327.00"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 21,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 251.82,
+    "productosComprados": [
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "6",
+        "titulo": "Micropavé pequeño de oro macizo",
+        "precio": "168",
+        "precioST": "168"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": "9.99",
+        "precioST": "9.99"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 22,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 194.97,
+    "productosComprados": [
+      {
+        "cantidad": 1,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "11.19"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "1",
+        "titulo": "Fjallraven - Mochila Foldsack No. 1, con capacidad para 15 portátiles",
+        "precio": "109.95",
+        "precioST": "109.95"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      }
+    ]
   }
 ]

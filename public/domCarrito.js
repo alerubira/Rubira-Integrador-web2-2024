@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-  console.log(carrito);
+  
   let tbody = document.querySelector('#divPrincipal #divProductos table tbody');
 
   carrito.forEach(function(producto) {
@@ -86,6 +86,10 @@ function incrementar(){
        let precioSubtotall=(precio*cantidad).toFixed(2);
        trProducto.querySelector('.tdCantidad').textContent=cantidad;
        trProducto.querySelector('.tdPrecioSubTotal').textContent=precioSubtotall;
+       let codigo=trProducto.querySelector('tdCodigo').innerText;
+       // Usando el método find para encontrar un producto por su id
+       let produ = carrito.find(producto => producto.codigo === codigo);
+       carrito[produ].cantidad=cantidad;
        incrementar();
   }
   
@@ -141,4 +145,15 @@ function incrementar(){
     .catch(error => {
         console.error('Error de red:', error);
     });
+}
+function volver(){
+  
+// Modificar el carrito
+// Por ejemplo, agregar un nuevo elemento al carrito
+//carrito.push({ id: 1, nombre: 'Producto nuevo', precio: 10 });
+
+// Actualizar el carrito en el localStorage
+localStorage.setItem('carrito', JSON.stringify(carrito));
+window.history.back();
+
 }
