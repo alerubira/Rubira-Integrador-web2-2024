@@ -376,5 +376,61 @@
         "precioST": "7.95"
       }
     ]
+  },
+  {
+    "numeroCompra": 18,
+    "cantidadTotalProductos": 8,
+    "precioTotal": 141.56,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "17",
+        "titulo": "Chaqueta impermeable para mujer, cortavientos, impermeables de escalada a rayas",
+        "precio": "39.99",
+        "precioST": "79.98"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "18",
+        "titulo": "MBJ Camiseta de manga corta con cuello barco en V para mujer",
+        "precio": "9.85",
+        "precioST": "19.70"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "19",
+        "titulo": "Opna Humedad de manga corta para mujer",
+        "precio": "7.95",
+        "precioST": "15.90"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "20",
+        "titulo": "DANVOUY Camiseta corta de algodón informal para mujer",
+        "precio": "12.99",
+        "precioST": "25.98"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 19,
+    "cantidadTotalProductos": 7,
+    "precioTotal": 311.93,
+    "productosComprados": [
+      {
+        "cantidad": 5,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "279.95"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "15.99",
+        "precioST": "31.98"
+      }
+    ]
   }
 ]

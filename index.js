@@ -2,7 +2,7 @@ const conectar=require('./conexxion.js');
 const axios = require('axios');
 const procesarProductos=require('./procesar.js');
 const activarPeticion=require('./peticionJson.js');
-//activarPeticion.activarPeticion();
+activarPeticion.activarPeticion();
  let listaP=[];    
 axios.get('https://fakestoreapi.com/products')
   .then(response => {

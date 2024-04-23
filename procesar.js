@@ -21,16 +21,20 @@ function procesarProductos(listaP){
         }
           producto.id=element.id;
           producto.imagen=element.image;
-          (async ()=>{
-            producto.titulo=await traducir(element.title);
-          })();
-          (async ()=>{
-            producto.categoria=await traducir(element.category);
-          })();
-         (async ()=>{
-          producto.descripcion=await traducir(element.description);
-          })(); 
-          //producto.descripcion=element.description;
+          async function traducirProductos(element) {
+            const promesas = [
+              traducir(element.title),
+              traducir(element.category),
+              traducir(element.description)
+            ];
+            const [titulo, categoria, descripcion] = await Promise.all(promesas);
+            producto.titulo = titulo;
+            producto.categoria = categoria;
+            producto.descripcion = descripcion;
+          }
+          
+          traducirProductos(element);
+          
           productos.push(producto);
         
         
@@ -55,3 +59,4 @@ async function traducir(texto){
       })
     return traducido.translation;
   }
+  
