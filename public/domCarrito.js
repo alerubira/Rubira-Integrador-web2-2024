@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+//document.addEventListener('DOMContentLoaded', function() {
   let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
   
   let tbody = document.querySelector('#divPrincipal #divProductos table tbody');
@@ -21,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       let tdCantidad = document.createElement('td');
       tdCantidad.classList.add('tdCantidad');
-      tdCantidad.textContent = producto.cantidad;
+      tdCantidad.textContent=producto.cantidad;
+      
 
       let tdAgregar = document.createElement('td');
       let btnAgregar = document.createElement('button');
@@ -56,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
       tbody.appendChild(tr);
   });
   incrementar();
-});
+//});
 
 /*function agregar(fila, esAgregar) {
   // Función para agregar o quitar productos del carrito
@@ -86,10 +87,11 @@ function incrementar(){
        let precioSubtotall=(precio*cantidad).toFixed(2);
        trProducto.querySelector('.tdCantidad').textContent=cantidad;
        trProducto.querySelector('.tdPrecioSubTotal').textContent=precioSubtotall;
-       let codigo=trProducto.querySelector('tdCodigo').innerText;
-       // Usando el método find para encontrar un producto por su id
-       let produ = carrito.find(producto => producto.codigo === codigo);
-       carrito[produ].cantidad=cantidad;
+       let codigo=trProducto.querySelector('.tdCodigo').innerText;
+       
+       let produ = carrito.find(producto => producto.codigo == codigo);
+       let indice=carrito.indexOf(produ);
+       carrito[indice].cantidad=cantidad;
        incrementar();
   }
   
@@ -136,6 +138,8 @@ function incrementar(){
         }else{
           alert("Su compra fue realizada con exito");
           compra=[];
+          localStorage.clear();
+
           window.location.href = '/'; 
         }
     })
@@ -147,12 +151,9 @@ function incrementar(){
     });
 }
 function volver(){
-  
-// Modificar el carrito
-// Por ejemplo, agregar un nuevo elemento al carrito
-//carrito.push({ id: 1, nombre: 'Producto nuevo', precio: 10 });
+  localStorage.clear();
 
-// Actualizar el carrito en el localStorage
+console.log(carrito);
 localStorage.setItem('carrito', JSON.stringify(carrito));
 window.history.back();
 
