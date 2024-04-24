@@ -705,5 +705,257 @@
         "precioST": "109"
       }
     ]
+  },
+  {
+    "numeroCompra": 26,
+    "cantidadTotalProductos": 16,
+    "precioTotal": 106,
+    "productosComprados": [
+      {
+        "cantidad": 4,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "11.19"
+      },
+      {
+        "cantidad": 6,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      },
+      {
+        "cantidad": 4,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": "9.99",
+        "precioST": "9.99"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "8",
+        "titulo": "Búho perforado de acero inoxidable chapado en oro rosa doble",
+        "precio": "10.99",
+        "precioST": "10.99"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 27,
+    "cantidadTotalProductos": 28,
+    "precioTotal": 980.16,
+    "productosComprados": [
+      {
+        "cantidad": 5,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "11.19"
+      },
+      {
+        "cantidad": 5,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      },
+      {
+        "cantidad": 5,
+        "codigo": "8",
+        "titulo": "Búho perforado de acero inoxidable chapado en oro rosa doble",
+        "precio": "10.99",
+        "precioST": "10.99"
+      },
+      {
+        "cantidad": 5,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": "9.99",
+        "precioST": "9.99"
+      },
+      {
+        "cantidad": 4,
+        "codigo": "12",
+        "titulo": "La unidad para juegos WD de 4 TB funciona con el disco duro externo portátil Playstation 4",
+        "precio": "114",
+        "precioST": "456.00"
+      },
+      {
+        "cantidad": 4,
+        "codigo": "11",
+        "titulo": "Silicon Power 256GB SSD 3D NAND A55 SLC Caché Rendimiento Aumentar SATA III 2.5",
+        "precio": "109",
+        "precioST": "436.00"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 28,
+    "cantidadTotalProductos": 4,
+    "precioTotal": 179.16,
+    "productosComprados": [
+      {
+        "cantidad": 3,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "167.97"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "11.19"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 29,
+    "cantidadTotalProductos": 11,
+    "precioTotal": 194.97,
+    "productosComprados": [
+      {
+        "cantidad": 4,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      },
+      {
+        "cantidad": 3,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "11.19"
+      },
+      {
+        "cantidad": 3,
+        "codigo": "1",
+        "titulo": "Fjallraven - Mochila Foldsack No. 1, con capacidad para 15 portátiles",
+        "precio": "109.95",
+        "precioST": "109.95"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 30,
+    "cantidadTotalProductos": 11,
+    "precioTotal": 194.97,
+    "productosComprados": [
+      {
+        "cantidad": 4,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      },
+      {
+        "cantidad": 3,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "11.19"
+      },
+      {
+        "cantidad": 3,
+        "codigo": "1",
+        "titulo": "Fjallraven - Mochila Foldsack No. 1, con capacidad para 15 portátiles",
+        "precio": "109.95",
+        "precioST": "109.95"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 31,
+    "cantidadTotalProductos": 16,
+    "precioTotal": 194.97,
+    "productosComprados": [
+      {
+        "cantidad": 6,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      },
+      {
+        "cantidad": 8,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "11.19"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "1",
+        "titulo": "Fjallraven - Mochila Foldsack No. 1, con capacidad para 15 portátiles",
+        "precio": "109.95",
+        "precioST": "109.95"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 32,
+    "cantidadTotalProductos": 10,
+    "precioTotal": 194.97,
+    "productosComprados": [
+      {
+        "cantidad": 4,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "11.19"
+      },
+      {
+        "cantidad": 4,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "55.99"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "17.84"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "1",
+        "titulo": "Fjallraven - Mochila Foldsack No. 1, con capacidad para 15 portátiles",
+        "precio": "109.95",
+        "precioST": "109.95"
+      }
+    ]
   }
 ]

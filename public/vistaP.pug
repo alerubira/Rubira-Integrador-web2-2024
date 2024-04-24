@@ -38,7 +38,7 @@ html(lang="es")
          function irAlCarrito(carrito) {
               if (carrito.length !== 0) { 
                 localStorage.clear();
-
+                   localStorage.setItem('cargado', true.toString());
                   localStorage.setItem('carrito', JSON.stringify(carrito));
                  
                  window.location.href = '/carrito'; 

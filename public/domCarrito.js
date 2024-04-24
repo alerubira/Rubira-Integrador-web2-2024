@@ -1,6 +1,11 @@
 //document.addEventListener('DOMContentLoaded', function() {
   let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-  
+  //var booleanoRecuperado = localStorage.getItem('miBooleano');
+  //booleanoRecuperado = Boolean(booleanoRecuperado); // Convertir la cadena a booleano
+  let cargado=Boolean(localStorage.getItem('cargado'));
+  if(cargado){
+    incrementar();
+  }
   let tbody = document.querySelector('#divPrincipal #divProductos table tbody');
 
   carrito.forEach(function(producto) {
@@ -82,7 +87,10 @@ function incrementar(){
   }
   function agregar(trProducto,sumar){
        let cantidad = parseInt(trProducto.querySelector('.tdCantidad').innerText);
-       cantidad=sumar?cantidad +1 : cantidad -1;
+       if(sumar||cantidad>0){
+        cantidad=sumar?cantidad +1 : cantidad -1;
+       }
+       
        let precio= parseFloat(trProducto.querySelector('.tdPrecio').innerText);
        let precioSubtotall=(precio*cantidad).toFixed(2);
        trProducto.querySelector('.tdCantidad').textContent=cantidad;
@@ -92,6 +100,7 @@ function incrementar(){
        let produ = carrito.find(producto => producto.codigo == codigo);
        let indice=carrito.indexOf(produ);
        carrito[indice].cantidad=cantidad;
+       carrito[indice].precioST=precioSubtotall;
        incrementar();
   }
   
@@ -155,6 +164,7 @@ function volver(){
 
 console.log(carrito);
 localStorage.setItem('carrito', JSON.stringify(carrito));
-window.history.back();
+//window.history.back();
+window.location.href='/';
 
 }
