@@ -44,6 +44,7 @@ function procesarProductos(listaP){
 }
 function recibir(arreglo){
     arregloConOfertas=arreglo;
+    
 }
 module.exports={procesarProductos,recibir};
 function dineroDescontados(precio,descuento){

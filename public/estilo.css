@@ -49,7 +49,7 @@ p{
     display: inline-block; /* Asegura que el contenedor se ajuste al tamaño del contenido */
     /*width: 200px; /* Tamaño deseado para el ancho */
     height: 200px; /* Tamaño deseado para la altura */
-
+    overflow: hidden; /* Ocultar cualquier contenido que se desborde del contenedor */
 }
 
 .fotoProducto {
@@ -59,8 +59,11 @@ p{
     display: block; /* Para eliminar cualquier espacio adicional que pueda aparecer */
    /* width: 200px; /* Tamaño deseado para el ancho */
     height: 100%; /* Tamaño deseado para la altura */
-    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    object-fit: contain; /* Ajusta la imagen para cubrir completamente el contenedor */
    /* display: block; /* Para eliminar cualquier espacio adicional que pueda aparecer */
+   position: absolute;
+    top: 0; /* Colocar la imagen en la parte superior del contenedor */
+    left: 0; /* Colocar la imagen en la parte izquierda del contenedor */
 }
 table, th, td {
     border: 2px solid black; 
@@ -100,9 +103,8 @@ h5{
 
   .superpuesta {
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: scale(0.5);
-    
-  }
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0.5);
+    }
     

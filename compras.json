@@ -957,5 +957,132 @@
         "precioST": "109.95"
       }
     ]
+  },
+  {
+    "numeroCompra": 33,
+    "cantidadTotalProductos": 25,
+    "precioTotal": 995.79,
+    "productosComprados": [
+      {
+        "cantidad": 7,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": "11.19",
+        "precioST": "78.33"
+      },
+      {
+        "cantidad": 7,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": "55.99",
+        "precioST": "391.93"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": "17.84",
+        "precioST": "35.68"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "1",
+        "titulo": "Fjallraven - Mochila Foldsack No. 1, con capacidad para 15 portátiles",
+        "precio": "109.95",
+        "precioST": "219.90"
+      },
+      {
+        "cantidad": 2,
+        "codigo": "8",
+        "titulo": "Búho perforado de acero inoxidable chapado en oro rosa doble",
+        "precio": "10.99",
+        "precioST": "21.98"
+      },
+      {
+        "cantidad": 3,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": "9.99",
+        "precioST": "29.97"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "10",
+        "titulo": "SanDisk SSD PLUS 1TB SSD interno - SATA III 6 Gb/s",
+        "precio": "109",
+        "precioST": "109"
+      },
+      {
+        "cantidad": 1,
+        "codigo": "11",
+        "titulo": "Silicon Power 256GB SSD 3D NAND A55 SLC Caché Rendimiento Aumentar SATA III 2.5",
+        "precio": "109",
+        "precioST": "109"
+      }
+    ]
+  },
+  {
+    "numeroCompra": 34,
+    "cantidadTotalProductos": 12,
+    "precioTotal": 488.14,
+    "productosComprados": [
+      {
+        "cantidad": 5,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": 17.84,
+        "precioST": 89.2
+      },
+      {
+        "cantidad": 5,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 279.95
+      },
+      {
+        "cantidad": 1,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": 9.99,
+        "precioST": 9.99
+      },
+      {
+        "cantidad": 1,
+        "codigo": "10",
+        "titulo": "SanDisk SSD PLUS 1TB SSD interno - SATA III 6 Gb/s",
+        "precio": 109,
+        "precioST": 109
+      }
+    ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 35,
+    "cantidadTotalProductos": 9,
+    "precioTotal": 378.67,
+    "productosComprados": [
+      {
+        "cantidad": 4,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 44.76
+      },
+      {
+        "cantidad": 4,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 223.96
+      },
+      {
+        "cantidad": 1,
+        "codigo": "1",
+        "titulo": "Fjallraven - Mochila Foldsack No. 1, con capacidad para 15 portátiles",
+        "precio": 109.95,
+        "precioST": 109.95
+      }
+    ]
   }
 ]

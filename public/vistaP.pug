@@ -9,13 +9,13 @@ html(lang="es")
   body 
        
     script.
-     // Paso 1: Recuperar los datos existentes de localStorage
+     
         let datosExistenteJSON = localStorage.getItem('carrito');
 
-         // Paso 2: Analizar los datos recuperados (si los hay)
+         
        let carrito= JSON.parse(datosExistenteJSON) || [];
-       console.log(`carrito en principal ${carrito}`);
-        //let carrito=[];
+       
+        
       function agregarAlCarrito(divCarta) {
           let productoCarrito={};
           let numeroCodigo = parseInt(divCarta.querySelector('.codigo').innerText);
@@ -38,11 +38,11 @@ html(lang="es")
          function irAlCarrito(carrito) {
               if (carrito.length !== 0) { 
                 localStorage.clear();
-                   localStorage.setItem('cargado', true.toString());
+                  // localStorage.setItem('cargado', true.toString());
                   localStorage.setItem('carrito', JSON.stringify(carrito));
                  
                  window.location.href = '/carrito'; 
-                // carrito=[];
+                
                    } else {
                           alert('Su carrito está vacío, no se puede procesar su compra');
                          }

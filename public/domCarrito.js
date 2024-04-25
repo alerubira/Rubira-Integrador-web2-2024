@@ -1,11 +1,10 @@
-//document.addEventListener('DOMContentLoaded', function() {
+
   let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-  //var booleanoRecuperado = localStorage.getItem('miBooleano');
-  //booleanoRecuperado = Boolean(booleanoRecuperado); // Convertir la cadena a booleano
-  let cargado=Boolean(localStorage.getItem('cargado'));
+  
+  /*let cargado=Boolean(localStorage.getItem('cargado'));
   if(cargado){
     incrementar();
-  }
+  }*/
   let tbody = document.querySelector('#divPrincipal #divProductos table tbody');
 
   carrito.forEach(function(producto) {
@@ -62,11 +61,7 @@
       tbody.appendChild(tr);
   });
   incrementar();
-//});
 
-/*function agregar(fila, esAgregar) {
-  // Función para agregar o quitar productos del carrito
-}*/
 
 function incrementar(){
     let cantidadProductos=document.getElementsByClassName('tdCantidad');
@@ -100,7 +95,7 @@ function incrementar(){
        let produ = carrito.find(producto => producto.codigo == codigo);
        let indice=carrito.indexOf(produ);
        carrito[indice].cantidad=cantidad;
-       carrito[indice].precioST=precioSubtotall;
+       carrito[indice].precioSubtotal=precioSubtotall;
        incrementar();
   }
   
@@ -110,6 +105,9 @@ function incrementar(){
     let producto={};
     let cantidadTotalProductos=document.getElementById('tdCantidadTotal');
     let precioTotal=document.getElementById('tdPrecioTotal');
+    let fechaActual = new Date();
+
+    compra.fecha=`${fechaActual.getDate()} / ${fechaActual.getMonth()+1} / ${fechaActual.getFullYear()}`;
     compra.numeroCompra="";
     compra.cantidadTotalProductos=parseInt(cantidadTotalProductos.innerText);
     compra.precioTotal=parseFloat(precioTotal.innerText);
@@ -119,8 +117,8 @@ function incrementar(){
         if(producto.cantidad>0){
           producto.codigo=prod.querySelector('.tdCodigo').innerText;
           producto.titulo=prod.querySelector('.tdTitulo').innerText;
-          producto.precio=prod.querySelector('.tdPrecio').innerText;
-          producto.precioST=prod.querySelector('.tdPrecioSubTotal').innerText;
+          producto.precio=parseFloat(prod.querySelector('.tdPrecio').innerText);
+          producto.precioST=parseFloat(prod.querySelector('.tdPrecioSubTotal').innerText);
           productosCompra.push(producto);
           producto={};
         }
@@ -162,9 +160,7 @@ function incrementar(){
 function volver(){
   localStorage.clear();
 
-console.log(carrito);
 localStorage.setItem('carrito', JSON.stringify(carrito));
-//window.history.back();
 window.location.href='/';
 
 }
