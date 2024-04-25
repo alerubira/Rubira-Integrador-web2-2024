@@ -1,10 +1,7 @@
 
   let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
   
-  /*let cargado=Boolean(localStorage.getItem('cargado'));
-  if(cargado){
-    incrementar();
-  }*/
+  
   let tbody = document.querySelector('#divPrincipal #divProductos table tbody');
 
   carrito.forEach(function(producto) {
@@ -146,6 +143,11 @@ function incrementar(){
           alert("Su compra fue realizada con exito");
           compra=[];
           localStorage.clear();
+           // Refrescar la página antes de redirigir
+           location.reload();
+
+           // Borrar el historial de navegación
+           history.replaceState(null, null, '/');
 
           window.location.href = '/'; 
         }

@@ -1113,5 +1113,208 @@
         "precioST": 9.99
       }
     ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 37,
+    "cantidadTotalProductos": 8,
+    "precioTotal": 221.52,
+    "productosComprados": [
+      {
+        "cantidad": 3,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 33.57
+      },
+      {
+        "cantidad": 3,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 167.97
+      },
+      {
+        "cantidad": 2,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": 9.99,
+        "precioST": 19.98
+      }
+    ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 38,
+    "cantidadTotalProductos": 14,
+    "precioTotal": 375.86,
+    "productosComprados": [
+      {
+        "cantidad": 5,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 55.95
+      },
+      {
+        "cantidad": 5,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 279.95
+      },
+      {
+        "cantidad": 4,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": 9.99,
+        "precioST": 39.96
+      }
+    ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 39,
+    "cantidadTotalProductos": 14,
+    "precioTotal": 375.86,
+    "productosComprados": [
+      {
+        "cantidad": 5,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 55.95
+      },
+      {
+        "cantidad": 5,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 279.95
+      },
+      {
+        "cantidad": 4,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": 9.99,
+        "precioST": 39.96
+      }
+    ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 40,
+    "cantidadTotalProductos": 17,
+    "precioTotal": 460.88,
+    "productosComprados": [
+      {
+        "cantidad": 6,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 67.14
+      },
+      {
+        "cantidad": 6,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 335.94
+      },
+      {
+        "cantidad": 4,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": 9.99,
+        "precioST": 39.96
+      },
+      {
+        "cantidad": 1,
+        "codigo": "2",
+        "titulo": "Camisetas ajustadas premium informales para hombre",
+        "precio": 17.84,
+        "precioST": 17.84
+      }
+    ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 41,
+    "cantidadTotalProductos": 7,
+    "precioTotal": 211.53,
+    "productosComprados": [
+      {
+        "cantidad": 3,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 167.97
+      },
+      {
+        "cantidad": 3,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 33.57
+      },
+      {
+        "cantidad": 1,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": 9.99,
+        "precioST": 9.99
+      }
+    ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 42,
+    "cantidadTotalProductos": 7,
+    "precioTotal": 211.53,
+    "productosComprados": [
+      {
+        "cantidad": 3,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 167.97
+      },
+      {
+        "cantidad": 3,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 33.57
+      },
+      {
+        "cantidad": 1,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": 9.99,
+        "precioST": 9.99
+      }
+    ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 43,
+    "cantidadTotalProductos": 8,
+    "precioTotal": 268.72,
+    "productosComprados": [
+      {
+        "cantidad": 4,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 223.96
+      },
+      {
+        "cantidad": 4,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 44.76
+      }
+    ]
   }
 ]
