@@ -1084,5 +1084,34 @@
         "precioST": 109.95
       }
     ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 36,
+    "cantidadTotalProductos": 5,
+    "precioTotal": 144.35,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 22.38
+      },
+      {
+        "cantidad": 2,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 111.98
+      },
+      {
+        "cantidad": 1,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": 9.99,
+        "precioST": 9.99
+      }
+    ]
   }
 ]
