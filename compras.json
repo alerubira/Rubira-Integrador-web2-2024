@@ -1316,5 +1316,99 @@
         "precioST": 44.76
       }
     ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 44,
+    "cantidadTotalProductos": 7,
+    "precioTotal": 368.34,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 22.38
+      },
+      {
+        "cantidad": 3,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 167.97
+      },
+      {
+        "cantidad": 1,
+        "codigo": "6",
+        "titulo": "Micropavé pequeño de oro macizo",
+        "precio": 168,
+        "precioST": 168
+      },
+      {
+        "cantidad": 1,
+        "codigo": "7",
+        "titulo": "Princesa chapada en oro blanco",
+        "precio": 9.99,
+        "precioST": 9.99
+      }
+    ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 45,
+    "cantidadTotalProductos": 5,
+    "precioTotal": 190.35,
+    "productosComprados": [
+      {
+        "cantidad": 2,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 22.38
+      },
+      {
+        "cantidad": 3,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 167.97
+      }
+    ]
+  },
+  {
+    "fecha": "25 / 4 / 2024",
+    "numeroCompra": 46,
+    "cantidadTotalProductos": 14,
+    "precioTotal": 630.7,
+    "productosComprados": [
+      {
+        "cantidad": 5,
+        "codigo": "4",
+        "titulo": "Corte ajustado informal para hombre",
+        "precio": 11.19,
+        "precioST": 55.95
+      },
+      {
+        "cantidad": 5,
+        "codigo": "3",
+        "titulo": "Chaqueta de algodón para hombre",
+        "precio": 55.99,
+        "precioST": 279.95
+      },
+      {
+        "cantidad": 2,
+        "codigo": "9",
+        "titulo": "Disco duro externo portátil WD Elements de 2 TB - USB 3.0",
+        "precio": 38.4,
+        "precioST": 76.8
+      },
+      {
+        "cantidad": 2,
+        "codigo": "10",
+        "titulo": "SanDisk SSD PLUS 1TB SSD interno - SATA III 6 Gb/s",
+        "precio": 109,
+        "precioST": 218
+      }
+    ]
   }
 ]
